@@ -48,6 +48,7 @@ final class AuthService {
                 
                 // create user (user) on firestore database
                 let user = UserModel.init(userId: authDataResult.user.uid, displayName: username, email: authDataResult.user.email!, photoURL: nil, coverImageURL: nil, joinedDate: Date.getISOTimestamp(), firstName: nil, lastName: nil, bio: nil)
+                print(user)
                 DBService.createUser(user: user, completion: { (error) in
                     if let error = error {
                         self.authserviceCreateNewAccountDelegate?.didRecieveErrorCreatingAccount(self, error: error)

@@ -28,6 +28,7 @@ class SignUpViewController: UIViewController {
             let password = passwordTextField.text,
             !password.isEmpty
             else {
+                print("missing fields") // TODO: add alert
                 return
         }
         authservice.createNewAccount(username: username, email: email, password: password)
@@ -45,11 +46,11 @@ extension SignUpViewController: AuthServiceCreateNewAccountDelegate {
         showAlert(title: "Account Creation Error", message: error.localizedDescription)
     }
     
-    func didCreateNewAccount(_ authservice: AuthService, user blogger: UserModel) {
+    func didCreateNewAccount(_ authservice: AuthService, user userModel: UserModel) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let mainTabBarController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! UIViewController
-        mainTabBarController.modalTransitionStyle = .crossDissolve
-        mainTabBarController.modalPresentationStyle = .overFullScreen
-        present(mainTabBarController, animated: true)
+        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! UIViewController
+        homeViewController.modalTransitionStyle = .crossDissolve
+        homeViewController.modalPresentationStyle = .overFullScreen
+        present(homeViewController, animated: true)
     }
 }

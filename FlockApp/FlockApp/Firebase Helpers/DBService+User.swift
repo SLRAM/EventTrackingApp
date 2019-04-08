@@ -32,7 +32,8 @@ extension DBService {
                        UsersCollectionKeys.JoinedDateKey  : user.joinedDate,
                        UsersCollectionKeys.BioKey         : user.bio ?? "",
                        UsersCollectionKeys.FirstNameKey   : user.firstName,
-                       UsersCollectionKeys.LastNameKey    : user.lastName
+                       UsersCollectionKeys.LastNameKey    : user.lastName,
+                       UsersCollectionKeys.CoverImageURLKey: user.coverImageURL ?? "",
             ]) { (error) in
                 if let error = error {
                     completion(error)
