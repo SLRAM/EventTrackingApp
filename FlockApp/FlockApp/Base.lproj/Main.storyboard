@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tYl-Lg-CwP">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="iQ9-Pd-DnZ">
             <objects>
-                <viewController id="tYl-Lg-CwP" customClass="HomeViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="tYl-Lg-CwP" customClass="HomeViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ynl-RE-RtC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,6 +30,9 @@
                                     <constraint firstAttribute="width" constant="35" id="4Jq-hT-i56"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="tYl-Lg-CwP" eventType="touchUpInside" id="PUu-J3-TTC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIh-jN-Ts2">
                                 <rect key="frame" x="128" y="78" width="118" height="41"/>
@@ -97,7 +100,7 @@
         <!--View Event View Controller-->
         <scene sceneID="BAB-Dl-OBg">
             <objects>
-                <viewController id="vOD-WE-xgd" customClass="ViewEventViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewEventViewController" id="vOD-WE-xgd" customClass="ViewEventViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BDq-m3-Yzd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,6 +120,9 @@
                                     <constraint firstAttribute="width" constant="35" id="uWR-Gk-tID"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="vOD-WE-xgd" eventType="touchUpInside" id="xsy-9E-LS5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVa-Fb-EJ5">
                                 <rect key="frame" x="113" y="78" width="149" height="60"/>
@@ -241,7 +247,7 @@
         <!--View Tasks View Controller-->
         <scene sceneID="6TP-3v-ypf">
             <objects>
-                <viewController id="HNw-3d-5gt" customClass="ViewTasksViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewTasksViewController" id="HNw-3d-5gt" customClass="ViewTasksViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xhb-Rb-7HG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,6 +269,9 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="35" id="jgl-H7-RLS"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="HNw-3d-5gt" eventType="touchUpInside" id="2cv-R5-FwY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnF-YM-D2s">
                                 <rect key="frame" x="128" y="78" width="118" height="41"/>
@@ -356,7 +365,7 @@
         <!--Profile View Controller-->
         <scene sceneID="irF-QB-7aj">
             <objects>
-                <viewController id="ucP-oh-7A2" customClass="ProfileViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="ucP-oh-7A2" customClass="ProfileViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zbp-l8-yL7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -378,6 +387,9 @@
                                     <constraint firstAttribute="width" constant="35" id="qMx-Fm-b1m"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="ucP-oh-7A2" eventType="touchUpInside" id="EcH-Tk-LRK"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yZx-nF-EyY" customClass="CircularImageView" customModule="FlockApp" customModuleProvider="target">
                                 <rect key="frame" x="124" y="91" width="126" height="126"/>
@@ -487,7 +499,7 @@
         <!--Map View Controller-->
         <scene sceneID="vIt-UV-DLi">
             <objects>
-                <viewController id="VjV-ko-dT6" customClass="MapViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="VjV-ko-dT6" customClass="MapViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uBZ-4k-Ixa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -509,6 +521,9 @@
                                     <constraint firstAttribute="width" constant="35" id="nsD-qx-wSn"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="VjV-ko-dT6" eventType="touchUpInside" id="LT0-bg-VQV"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ivw-dy-jAo">
                                 <rect key="frame" x="35" y="70" width="340" height="450"/>
@@ -545,7 +560,7 @@
         <!--User Events View Controller-->
         <scene sceneID="4AN-sX-mX2">
             <objects>
-                <viewController id="cpm-BX-Ay2" customClass="UserEventsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserEventsViewController" id="cpm-BX-Ay2" customClass="UserEventsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DH9-8t-tga">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -567,6 +582,9 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="35" id="ofq-cA-QfT"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="cpm-BX-Ay2" eventType="touchUpInside" id="EY3-Sn-LMf"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zzJ-cW-u3S" customClass="CircularImageView" customModule="FlockApp" customModuleProvider="target">
                                 <rect key="frame" x="124" y="91" width="126" height="126"/>
@@ -628,7 +646,7 @@
         <!--Event Goer Info View Controller-->
         <scene sceneID="z7E-yW-d5J">
             <objects>
-                <viewController id="DHe-8G-bYT" customClass="EventGoerInfoViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EventGoerInfoViewController" id="DHe-8G-bYT" customClass="EventGoerInfoViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YAk-My-rHr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -650,6 +668,9 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="35" id="wz9-U1-AlC"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="DHe-8G-bYT" eventType="touchUpInside" id="OMT-aO-fdf"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FZo-cM-8Je" customClass="CircularImageView" customModule="FlockApp" customModuleProvider="target">
                                 <rect key="frame" x="124" y="91" width="126" height="126"/>
@@ -749,7 +770,7 @@
         <!--Friends View Controller-->
         <scene sceneID="KLj-Cd-gr0">
             <objects>
-                <viewController id="bCz-o9-RhR" customClass="FriendsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsViewController" id="bCz-o9-RhR" customClass="FriendsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SMZ-6X-C5T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -771,6 +792,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="qI5-9a-ItS"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="bCz-o9-RhR" eventType="touchUpInside" id="YvA-fs-2o8"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1tt-l8-rdo">
                                 <rect key="frame" x="31" y="70" width="344" height="597"/>
@@ -882,7 +906,7 @@
         <!--Settings View Controller-->
         <scene sceneID="DBZ-nz-C2o">
             <objects>
-                <viewController id="h08-5g-e52" customClass="SettingsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="h08-5g-e52" customClass="SettingsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="88f-6e-Snv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -904,6 +928,9 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="35" id="CQD-Wp-jnD"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="h08-5g-e52" eventType="touchUpInside" id="aXP-qH-7mC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC6-d7-E4p">
                                 <rect key="frame" x="52" y="150" width="123.5" height="20.5"/>
@@ -1036,6 +1063,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="h7S-h3-RLL"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="uHw-4n-Jtz" eventType="touchUpInside" id="9lA-GL-7TS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT TYPE OF EVENT ARE WE MAKING?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db4-2k-J8b">
                                 <rect key="frame" x="51" y="117" width="273" height="157"/>
@@ -1082,7 +1112,7 @@
         <!--Search Friends View Controller-->
         <scene sceneID="4nh-JP-zRJ">
             <objects>
-                <viewController id="KdQ-ao-FZw" customClass="SearchFriendsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchFriendsViewController" id="KdQ-ao-FZw" customClass="SearchFriendsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dyN-BN-hHt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1104,6 +1134,9 @@
                                     <constraint firstAttribute="width" constant="35" id="kfT-n7-G0c"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="KdQ-ao-FZw" eventType="touchUpInside" id="d9F-bk-DO1"/>
+                                </connections>
                             </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="gDz-iW-ZVu">
                                 <rect key="frame" x="35" y="70" width="340" height="56"/>
@@ -1223,7 +1256,7 @@
         <!--Menu View Controller-->
         <scene sceneID="fGz-PP-zld">
             <objects>
-                <viewController id="gtU-EX-Moz" customClass="MenuViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuViewController" id="gtU-EX-Moz" customClass="MenuViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zgE-6Q-nUf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1235,7 +1268,10 @@
                                     <constraint firstAttribute="height" constant="60" id="Nds-46-fqu"/>
                                     <constraint firstAttribute="width" constant="180" id="dut-uh-cgd"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="signOutButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="zjW-c5-yW7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-dZ-kFn">
                                 <rect key="frame" x="0.0" y="20" width="180" height="50"/>
@@ -1273,7 +1309,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ANW-my-BvK"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="4bb-as-4Zd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsA-Qv-GUm">
                                 <rect key="frame" x="0.0" y="247" width="180" height="60"/>
@@ -1281,7 +1320,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="vIh-ec-Gmj"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Profile">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="profileButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="geI-kC-nEE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QL3-17-uaz">
                                 <rect key="frame" x="0.0" y="187" width="180" height="60"/>
@@ -1290,7 +1334,10 @@
                                     <constraint firstAttribute="height" constant="60" id="72p-7Y-Xoo"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="xBs-7C-KWr"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Friends"/>
+                                <connections>
+                                    <action selector="friendsButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="7gK-sM-tbU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzx-7y-BRx">
                                 <rect key="frame" x="0.0" y="128" width="180" height="60"/>
@@ -1298,7 +1345,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="4ur-VO-bu5"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="My Events"/>
+                                <connections>
+                                    <action selector="myEventButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="ZfX-JS-ggq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCu-cx-3b3">
                                 <rect key="frame" x="0.0" y="68" width="180" height="60"/>
@@ -1306,7 +1356,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Eis-Fp-epb"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="homeButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="0An-h9-m0d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8w-ac-GcT">
                                 <rect key="frame" x="0.0" y="307" width="180" height="60"/>
@@ -1314,7 +1367,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="hQ9-7Q-mq1"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Settings"/>
+                                <connections>
+                                    <action selector="settingsButton:" destination="gtU-EX-Moz" eventType="touchUpInside" id="ZgP-J9-fAW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1369,7 +1425,7 @@
         <!--Create Edit1 View Controller-->
         <scene sceneID="hB9-VL-rnb">
             <objects>
-                <viewController id="w5j-px-wsU" customClass="CreateEdit1ViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateEdit1ViewController" id="w5j-px-wsU" customClass="CreateEdit1ViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2WA-JG-X3R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1391,6 +1447,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="nBj-nM-7av"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="w5j-px-wsU" eventType="touchUpInside" id="VvU-cl-HWX"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-yC-P60">
                                 <rect key="frame" x="83" y="78" width="208" height="77"/>
@@ -1525,7 +1584,7 @@
         <!--Create Tasks View Controller-->
         <scene sceneID="Q10-nQ-fcU">
             <objects>
-                <viewController id="pk1-V9-T4a" customClass="CreateTasksViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateTasksViewController" id="pk1-V9-T4a" customClass="CreateTasksViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mGq-tc-gDr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1547,6 +1606,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="daU-fq-Uby"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="pk1-V9-T4a" eventType="touchUpInside" id="PGg-D7-sJ8"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cU3-rq-1PI">
                                 <rect key="frame" x="35" y="70" width="340" height="427"/>
@@ -1621,7 +1683,7 @@
         <!--Create Edit2 View Controller-->
         <scene sceneID="zDD-qo-DPd">
             <objects>
-                <viewController id="F67-Yg-xYo" customClass="CreateEdit2ViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateEdit2ViewController" id="F67-Yg-xYo" customClass="CreateEdit2ViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="keQ-HR-13t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1643,6 +1705,9 @@
                                     <constraint firstAttribute="width" constant="35" id="gTK-Xg-tX6"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="menuPressed:" destination="F67-Yg-xYo" eventType="touchUpInside" id="E3T-Go-FFM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDq-iM-o6Y">
                                 <rect key="frame" x="83" y="78" width="208" height="77"/>
