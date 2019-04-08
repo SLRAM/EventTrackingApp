@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01742A852257F46F0083ED93 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01742A842257F46F0083ED93 /* Notes.rtf */; };
-		01742A89225B67960083ED93 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01742A88225B67960083ED93 /* Login.storyboard */; };
 		01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8A225B73680083ED93 /* LoginViewController.swift */; };
 		01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8C225B76800083ED93 /* SignUpViewController.swift */; };
 		90855BA8CE7044DD1F1F9A01 /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */; };
@@ -37,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		01742A842257F46F0083ED93 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
-		01742A88225B67960083ED93 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		01742A8A225B73680083ED93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01742A8C225B76800083ED93 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		682BF4BA13CA0D365D3D99CE /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 		01742A8E225B76920083ED93 /* LoginAndSignUp */ = {
 			isa = PBXGroup;
 			children = (
-				01742A88225B67960083ED93 /* Login.storyboard */,
 				01742A8C225B76800083ED93 /* SignUpViewController.swift */,
 				01742A8A225B73680083ED93 /* LoginViewController.swift */,
 			);
@@ -233,7 +230,6 @@
 			files = (
 				97025F9E2257EA1200273C91 /* LaunchScreen.storyboard in Resources */,
 				97025FA62257EB6E00273C91 /* GoogleService-Info.plist in Resources */,
-				01742A89225B67960083ED93 /* Login.storyboard in Resources */,
 				97025F9B2257EA1200273C91 /* Assets.xcassets in Resources */,
 				97025F992257EA1100273C91 /* Main.storyboard in Resources */,
 				01742A852257F46F0083ED93 /* Notes.rtf in Resources */,
