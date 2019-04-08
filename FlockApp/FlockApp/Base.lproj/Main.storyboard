@@ -882,7 +882,7 @@
         <!--Settings View Controller-->
         <scene sceneID="DBZ-nz-C2o">
             <objects>
-                <viewController id="h08-5g-e52" customClass="SettingsViewController" sceneMemberID="viewController">
+                <viewController id="h08-5g-e52" customClass="SettingsViewController" customModule="FlockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="88f-6e-Snv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
