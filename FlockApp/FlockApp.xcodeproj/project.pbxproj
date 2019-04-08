@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01742A852257F46F0083ED93 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01742A842257F46F0083ED93 /* Notes.rtf */; };
-		01742A89225B67960083ED93 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01742A88225B67960083ED93 /* Login.storyboard */; };
 		01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8A225B73680083ED93 /* LoginViewController.swift */; };
 		01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8C225B76800083ED93 /* SignUpViewController.swift */; };
 		90855BA8CE7044DD1F1F9A01 /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */; };
@@ -33,11 +32,20 @@
 		97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C85225BCF54007D480D /* ProfileViewController.swift */; };
 		97802C95225BCF54007D480D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C86225BCF54007D480D /* MenuViewController.swift */; };
 		97802C96225BCF54007D480D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C87225BCF54007D480D /* SettingsViewController.swift */; };
+		97802C98225BD480007D480D /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97802C97225BD480007D480D /* LoginView.storyboard */; };
+		97802C9B225BD642007D480D /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C9A225BD642007D480D /* StorageService.swift */; };
+		97802C9D225BD657007D480D /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C9C225BD657007D480D /* DBService.swift */; };
+		97802C9F225BD673007D480D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C9E225BD673007D480D /* AuthService.swift */; };
+		97802CA2225BD820007D480D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CA1225BD820007D480D /* UserModel.swift */; };
+		97802CA4225BD888007D480D /* DBService+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CA3225BD888007D480D /* DBService+User.swift */; };
+		97802CA9225BDB8C007D480D /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CA8225BDB8C007D480D /* UIViewController+Navigation.swift */; };
+		97802CAB225BDBB0007D480D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CAA225BDBB0007D480D /* UIViewController+Alert.swift */; };
+		97802CAD225BDBCF007D480D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CAC225BDBCF007D480D /* Date+Extensions.swift */; };
+		97802CAF225BDBE2007D480D /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802CAE225BDBE2007D480D /* String+Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01742A842257F46F0083ED93 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
-		01742A88225B67960083ED93 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		01742A8A225B73680083ED93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01742A8C225B76800083ED93 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		682BF4BA13CA0D365D3D99CE /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +72,16 @@
 		97802C85225BCF54007D480D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		97802C86225BCF54007D480D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		97802C87225BCF54007D480D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		97802C97225BD480007D480D /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LoginView.storyboard; path = FlockApp/LoginView.storyboard; sourceTree = SOURCE_ROOT; };
+		97802C9A225BD642007D480D /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		97802C9C225BD657007D480D /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		97802C9E225BD673007D480D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		97802CA1225BD820007D480D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		97802CA3225BD888007D480D /* DBService+User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBService+User.swift"; sourceTree = "<group>"; };
+		97802CA8225BDB8C007D480D /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		97802CAA225BDBB0007D480D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		97802CAC225BDBCF007D480D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		97802CAE225BDBE2007D480D /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
 		C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7C799A184F28588052BCD1 /* Pods-FlockApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.release.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +101,7 @@
 		01742A8E225B76920083ED93 /* LoginAndSignUp */ = {
 			isa = PBXGroup;
 			children = (
-				01742A88225B67960083ED93 /* Login.storyboard */,
+				97802C97225BD480007D480D /* LoginView.storyboard */,
 				01742A8C225B76800083ED93 /* SignUpViewController.swift */,
 				01742A8A225B73680083ED93 /* LoginViewController.swift */,
 			);
@@ -120,6 +138,9 @@
 		97025F922257EA1100273C91 /* FlockApp */ = {
 			isa = PBXGroup;
 			children = (
+				97802CA5225BDB1E007D480D /* Extensions */,
+				97802CA0225BD7E1007D480D /* Models */,
+				97802C99225BD5C2007D480D /* Firebase Helpers */,
 				97802C78225BCF54007D480D /* Views */,
 				97025FA72257F15500273C91 /* Utilities */,
 				97025F932257EA1100273C91 /* AppDelegate.swift */,
@@ -162,6 +183,52 @@
 				97802C87225BCF54007D480D /* SettingsViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		97802C99225BD5C2007D480D /* Firebase Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				97802C9A225BD642007D480D /* StorageService.swift */,
+				97802C9C225BD657007D480D /* DBService.swift */,
+				97802C9E225BD673007D480D /* AuthService.swift */,
+				97802CA3225BD888007D480D /* DBService+User.swift */,
+			);
+			path = "Firebase Helpers";
+			sourceTree = "<group>";
+		};
+		97802CA0225BD7E1007D480D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97802CA1225BD820007D480D /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97802CA5225BDB1E007D480D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97802CA7225BDB4A007D480D /* UIViewController Extensions */,
+				97802CA6225BDB37007D480D /* Date Extensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		97802CA6225BDB37007D480D /* Date Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97802CAC225BDBCF007D480D /* Date+Extensions.swift */,
+				97802CAE225BDBE2007D480D /* String+Date.swift */,
+			);
+			path = "Date Extensions";
+			sourceTree = "<group>";
+		};
+		97802CA7225BDB4A007D480D /* UIViewController Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97802CA8225BDB8C007D480D /* UIViewController+Navigation.swift */,
+				97802CAA225BDBB0007D480D /* UIViewController+Alert.swift */,
+			);
+			path = "UIViewController Extensions";
 			sourceTree = "<group>";
 		};
 		BAA7EF280003BEA21B99454E /* Frameworks */ = {
@@ -233,10 +300,10 @@
 			files = (
 				97025F9E2257EA1200273C91 /* LaunchScreen.storyboard in Resources */,
 				97025FA62257EB6E00273C91 /* GoogleService-Info.plist in Resources */,
-				01742A89225B67960083ED93 /* Login.storyboard in Resources */,
 				97025F9B2257EA1200273C91 /* Assets.xcassets in Resources */,
 				97025F992257EA1100273C91 /* Main.storyboard in Resources */,
 				01742A852257F46F0083ED93 /* Notes.rtf in Resources */,
+				97802C98225BD480007D480D /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +379,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97802CAF225BDBE2007D480D /* String+Date.swift in Sources */,
 				97802C91225BCF54007D480D /* CreateEdit1ViewController.swift in Sources */,
 				97802C8E225BCF54007D480D /* CreateEdit2ViewController.swift in Sources */,
 				97802C92225BCF54007D480D /* EventGoerInfoViewController.swift in Sources */,
+				97802CAB225BDBB0007D480D /* UIViewController+Alert.swift in Sources */,
 				01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */,
 				97802C8A225BCF54007D480D /* ViewTasksViewController.swift in Sources */,
+				97802C9F225BD673007D480D /* AuthService.swift in Sources */,
+				97802C9B225BD642007D480D /* StorageService.swift in Sources */,
 				97802C96225BCF54007D480D /* SettingsViewController.swift in Sources */,
+				97802CA4225BD888007D480D /* DBService+User.swift in Sources */,
+				97802CA2225BD820007D480D /* UserModel.swift in Sources */,
+				97802CAD225BDBCF007D480D /* Date+Extensions.swift in Sources */,
 				97802C88225BCF54007D480D /* FriendsViewController.swift in Sources */,
+				97802CA9225BDB8C007D480D /* UIViewController+Navigation.swift in Sources */,
 				97802C8F225BCF54007D480D /* ViewEventViewController.swift in Sources */,
 				97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */,
 				97802C8C225BCF54007D480D /* SearchFriendsViewController.swift in Sources */,
@@ -328,6 +403,7 @@
 				97802C8D225BCF54007D480D /* CreateEventViewController.swift in Sources */,
 				97802C95225BCF54007D480D /* MenuViewController.swift in Sources */,
 				97802C93225BCF54007D480D /* UserEventsViewController.swift in Sources */,
+				97802C9D225BD657007D480D /* DBService.swift in Sources */,
 				97025F942257EA1100273C91 /* AppDelegate.swift in Sources */,
 				97802C90225BCF54007D480D /* HomeViewController.swift in Sources */,
 				97802C8B225BCF54007D480D /* MapViewController.swift in Sources */,
