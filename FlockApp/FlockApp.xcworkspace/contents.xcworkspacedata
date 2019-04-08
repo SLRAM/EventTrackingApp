@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "Views">
+      <FileRef
+         location = "group:ViewEventViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ViewTasksViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ProfileViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:EventGoerInfoViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:MapViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:FriendsViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SearchFriendsViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SettingsViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CreateEventViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CreateEdit1ViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CreateEdit2ViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CreateTasksViewController.swift">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:FlockApp.xcodeproj">
    </FileRef>
