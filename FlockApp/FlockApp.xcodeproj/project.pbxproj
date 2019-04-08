@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012C794F225BA44F00CD13B0 /* UserEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C794E225BA44F00CD13B0 /* UserEventsViewController.swift */; };
-		012C7951225BB62C00CD13B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7950225BB62C00CD13B0 /* MenuViewController.swift */; };
 		01742A852257F46F0083ED93 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01742A842257F46F0083ED93 /* Notes.rtf */; };
 		01742A89225B67960083ED93 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01742A88225B67960083ED93 /* Login.storyboard */; };
 		01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8A225B73680083ED93 /* LoginViewController.swift */; };
 		01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8C225B76800083ED93 /* SignUpViewController.swift */; };
-		01742A90225B78C60083ED93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8F225B78C60083ED93 /* HomeViewController.swift */; };
 		90855BA8CE7044DD1F1F9A01 /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */; };
 		97025F942257EA1100273C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97025F932257EA1100273C91 /* AppDelegate.swift */; };
 		97025F992257EA1100273C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97025F972257EA1100273C91 /* Main.storyboard */; };
@@ -21,28 +18,28 @@
 		97025F9E2257EA1200273C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97025F9C2257EA1200273C91 /* LaunchScreen.storyboard */; };
 		97025FA62257EB6E00273C91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97025FA52257EB6D00273C91 /* GoogleService-Info.plist */; };
 		97025FA92257F16E00273C91 /* IBADesignablesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97025FA82257F16E00273C91 /* IBADesignablesViews.swift */; };
+		97802C88225BCF54007D480D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C79225BCF54007D480D /* FriendsViewController.swift */; };
+		97802C89225BCF54007D480D /* CreateTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7A225BCF54007D480D /* CreateTasksViewController.swift */; };
+		97802C8A225BCF54007D480D /* ViewTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7B225BCF54007D480D /* ViewTasksViewController.swift */; };
+		97802C8B225BCF54007D480D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7C225BCF54007D480D /* MapViewController.swift */; };
+		97802C8C225BCF54007D480D /* SearchFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7D225BCF54007D480D /* SearchFriendsViewController.swift */; };
+		97802C8D225BCF54007D480D /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7E225BCF54007D480D /* CreateEventViewController.swift */; };
+		97802C8E225BCF54007D480D /* CreateEdit2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C7F225BCF54007D480D /* CreateEdit2ViewController.swift */; };
+		97802C8F225BCF54007D480D /* ViewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C80225BCF54007D480D /* ViewEventViewController.swift */; };
+		97802C90225BCF54007D480D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C81225BCF54007D480D /* HomeViewController.swift */; };
+		97802C91225BCF54007D480D /* CreateEdit1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C82225BCF54007D480D /* CreateEdit1ViewController.swift */; };
+		97802C92225BCF54007D480D /* EventGoerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C83225BCF54007D480D /* EventGoerInfoViewController.swift */; };
+		97802C93225BCF54007D480D /* UserEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C84225BCF54007D480D /* UserEventsViewController.swift */; };
+		97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C85225BCF54007D480D /* ProfileViewController.swift */; };
+		97802C95225BCF54007D480D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C86225BCF54007D480D /* MenuViewController.swift */; };
+		97802C96225BCF54007D480D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97802C87225BCF54007D480D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		012C794E225BA44F00CD13B0 /* UserEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEventsViewController.swift; sourceTree = "<group>"; };
-		012C7950225BB62C00CD13B0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		01742A842257F46F0083ED93 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 		01742A88225B67960083ED93 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		01742A8A225B73680083ED93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01742A8C225B76800083ED93 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		01742A8F225B78C60083ED93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		01742A91225B799A0083ED93 /* ViewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
-		01742A92225B799A0083ED93 /* ViewTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTasksViewController.swift; sourceTree = "<group>"; };
-		01742A93225B799A0083ED93 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		01742A94225B799A0083ED93 /* EventGoerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventGoerInfoViewController.swift; sourceTree = "<group>"; };
-		01742A95225B799A0083ED93 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		01742A96225B799A0083ED93 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
-		01742A97225B799A0083ED93 /* SearchFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFriendsViewController.swift; sourceTree = "<group>"; };
-		01742A98225B799A0083ED93 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		01742A99225B799A0083ED93 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
-		01742A9A225B799A0083ED93 /* CreateEdit1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEdit1ViewController.swift; sourceTree = "<group>"; };
-		01742A9B225B799A0083ED93 /* CreateEdit2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEdit2ViewController.swift; sourceTree = "<group>"; };
-		01742A9C225B799A0083ED93 /* CreateTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTasksViewController.swift; sourceTree = "<group>"; };
 		682BF4BA13CA0D365D3D99CE /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
 		97025F902257EA1100273C91 /* FlockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97025F932257EA1100273C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +49,21 @@
 		97025F9F2257EA1200273C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97025FA52257EB6D00273C91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97025FA82257F16E00273C91 /* IBADesignablesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBADesignablesViews.swift; sourceTree = "<group>"; };
+		97802C79225BCF54007D480D /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		97802C7A225BCF54007D480D /* CreateTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTasksViewController.swift; sourceTree = "<group>"; };
+		97802C7B225BCF54007D480D /* ViewTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTasksViewController.swift; sourceTree = "<group>"; };
+		97802C7C225BCF54007D480D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		97802C7D225BCF54007D480D /* SearchFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFriendsViewController.swift; sourceTree = "<group>"; };
+		97802C7E225BCF54007D480D /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		97802C7F225BCF54007D480D /* CreateEdit2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEdit2ViewController.swift; sourceTree = "<group>"; };
+		97802C80225BCF54007D480D /* ViewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
+		97802C81225BCF54007D480D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		97802C82225BCF54007D480D /* CreateEdit1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEdit1ViewController.swift; sourceTree = "<group>"; };
+		97802C83225BCF54007D480D /* EventGoerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventGoerInfoViewController.swift; sourceTree = "<group>"; };
+		97802C84225BCF54007D480D /* UserEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEventsViewController.swift; sourceTree = "<group>"; };
+		97802C85225BCF54007D480D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		97802C86225BCF54007D480D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		97802C87225BCF54007D480D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7C799A184F28588052BCD1 /* Pods-FlockApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.release.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,29 +88,6 @@
 				01742A8A225B73680083ED93 /* LoginViewController.swift */,
 			);
 			path = LoginAndSignUp;
-			sourceTree = "<group>";
-		};
-		01742A9D225B799A0083ED93 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				01742A91225B799A0083ED93 /* ViewEventViewController.swift */,
-				01742A92225B799A0083ED93 /* ViewTasksViewController.swift */,
-				01742A93225B799A0083ED93 /* ProfileViewController.swift */,
-				01742A94225B799A0083ED93 /* EventGoerInfoViewController.swift */,
-				01742A95225B799A0083ED93 /* MapViewController.swift */,
-				01742A96225B799A0083ED93 /* FriendsViewController.swift */,
-				01742A97225B799A0083ED93 /* SearchFriendsViewController.swift */,
-				012C794E225BA44F00CD13B0 /* UserEventsViewController.swift */,
-				01742A98225B799A0083ED93 /* SettingsViewController.swift */,
-				01742A99225B799A0083ED93 /* CreateEventViewController.swift */,
-				01742A9A225B799A0083ED93 /* CreateEdit1ViewController.swift */,
-				012C7950225BB62C00CD13B0 /* MenuViewController.swift */,
-				01742A8F225B78C60083ED93 /* HomeViewController.swift */,
-				01742A9B225B799A0083ED93 /* CreateEdit2ViewController.swift */,
-				01742A9C225B799A0083ED93 /* CreateTasksViewController.swift */,
-			);
-			name = Views;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		16489800E44013F2CACB43CF /* Pods */ = {
@@ -131,9 +120,9 @@
 		97025F922257EA1100273C91 /* FlockApp */ = {
 			isa = PBXGroup;
 			children = (
+				97802C78225BCF54007D480D /* Views */,
 				97025FA72257F15500273C91 /* Utilities */,
 				97025F932257EA1100273C91 /* AppDelegate.swift */,
-				01742A9D225B799A0083ED93 /* Views */,
 				97025F972257EA1100273C91 /* Main.storyboard */,
 				01742A842257F46F0083ED93 /* Notes.rtf */,
 				97025F9A2257EA1200273C91 /* Assets.xcassets */,
@@ -151,6 +140,28 @@
 				97025FA82257F16E00273C91 /* IBADesignablesViews.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		97802C78225BCF54007D480D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97802C79225BCF54007D480D /* FriendsViewController.swift */,
+				97802C7A225BCF54007D480D /* CreateTasksViewController.swift */,
+				97802C7B225BCF54007D480D /* ViewTasksViewController.swift */,
+				97802C7C225BCF54007D480D /* MapViewController.swift */,
+				97802C7D225BCF54007D480D /* SearchFriendsViewController.swift */,
+				97802C7E225BCF54007D480D /* CreateEventViewController.swift */,
+				97802C7F225BCF54007D480D /* CreateEdit2ViewController.swift */,
+				97802C80225BCF54007D480D /* ViewEventViewController.swift */,
+				97802C81225BCF54007D480D /* HomeViewController.swift */,
+				97802C82225BCF54007D480D /* CreateEdit1ViewController.swift */,
+				97802C83225BCF54007D480D /* EventGoerInfoViewController.swift */,
+				97802C84225BCF54007D480D /* UserEventsViewController.swift */,
+				97802C85225BCF54007D480D /* ProfileViewController.swift */,
+				97802C86225BCF54007D480D /* MenuViewController.swift */,
+				97802C87225BCF54007D480D /* SettingsViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BAA7EF280003BEA21B99454E /* Frameworks */ = {
@@ -301,13 +312,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C794F225BA44F00CD13B0 /* UserEventsViewController.swift in Sources */,
+				97802C91225BCF54007D480D /* CreateEdit1ViewController.swift in Sources */,
+				97802C8E225BCF54007D480D /* CreateEdit2ViewController.swift in Sources */,
+				97802C92225BCF54007D480D /* EventGoerInfoViewController.swift in Sources */,
 				01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */,
+				97802C8A225BCF54007D480D /* ViewTasksViewController.swift in Sources */,
+				97802C96225BCF54007D480D /* SettingsViewController.swift in Sources */,
+				97802C88225BCF54007D480D /* FriendsViewController.swift in Sources */,
+				97802C8F225BCF54007D480D /* ViewEventViewController.swift in Sources */,
+				97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */,
+				97802C8C225BCF54007D480D /* SearchFriendsViewController.swift in Sources */,
 				01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */,
-				012C7951225BB62C00CD13B0 /* MenuViewController.swift in Sources */,
+				97802C89225BCF54007D480D /* CreateTasksViewController.swift in Sources */,
 				97025FA92257F16E00273C91 /* IBADesignablesViews.swift in Sources */,
+				97802C8D225BCF54007D480D /* CreateEventViewController.swift in Sources */,
+				97802C95225BCF54007D480D /* MenuViewController.swift in Sources */,
+				97802C93225BCF54007D480D /* UserEventsViewController.swift in Sources */,
 				97025F942257EA1100273C91 /* AppDelegate.swift in Sources */,
-				01742A90225B78C60083ED93 /* HomeViewController.swift in Sources */,
+				97802C90225BCF54007D480D /* HomeViewController.swift in Sources */,
+				97802C8B225BCF54007D480D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
