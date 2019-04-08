@@ -12,6 +12,10 @@
 		01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8A225B73680083ED93 /* LoginViewController.swift */; };
 		01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8C225B76800083ED93 /* SignUpViewController.swift */; };
 		90855BA8CE7044DD1F1F9A01 /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C33923AA67CF5C99C66BED /* Pods_FlockApp.framework */; };
+		9182A785225BD72D00B5F8A3 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182A784225BD72D00B5F8A3 /* Date+Extension.swift */; };
+		9182A787225BD76500B5F8A3 /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182A786225BD76500B5F8A3 /* String+Date.swift */; };
+		9182A789225BD7B000B5F8A3 /* UAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182A788225BD7B000B5F8A3 /* UAlertViewController.swift */; };
+		9182A78B225BD7DA00B5F8A3 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182A78A225BD7DA00B5F8A3 /* UIViewControllerExtension.swift */; };
 		97025F942257EA1100273C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97025F932257EA1100273C91 /* AppDelegate.swift */; };
 		97025F992257EA1100273C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97025F972257EA1100273C91 /* Main.storyboard */; };
 		97025F9B2257EA1200273C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97025F9A2257EA1200273C91 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 		01742A8A225B73680083ED93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01742A8C225B76800083ED93 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		682BF4BA13CA0D365D3D99CE /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9182A784225BD72D00B5F8A3 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		9182A786225BD76500B5F8A3 /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		9182A788225BD7B000B5F8A3 /* UAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAlertViewController.swift; sourceTree = "<group>"; };
+		9182A78A225BD7DA00B5F8A3 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		97025F902257EA1100273C91 /* FlockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97025F932257EA1100273C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97025F982257EA1100273C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +107,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9182A783225BD70A00B5F8A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9182A784225BD72D00B5F8A3 /* Date+Extension.swift */,
+				9182A786225BD76500B5F8A3 /* String+Date.swift */,
+				9182A788225BD7B000B5F8A3 /* UAlertViewController.swift */,
+				9182A78A225BD7DA00B5F8A3 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		97025F872257EA1100273C91 = {
 			isa = PBXGroup;
 			children = (
@@ -122,9 +141,10 @@
 			children = (
 				97802C78225BCF54007D480D /* Views */,
 				97025FA72257F15500273C91 /* Utilities */,
-				97025F932257EA1100273C91 /* AppDelegate.swift */,
+				9182A783225BD70A00B5F8A3 /* Extensions */,
 				97025F972257EA1100273C91 /* Main.storyboard */,
 				01742A842257F46F0083ED93 /* Notes.rtf */,
+				97025F932257EA1100273C91 /* AppDelegate.swift */,
 				97025F9A2257EA1200273C91 /* Assets.xcassets */,
 				01742A8E225B76920083ED93 /* LoginAndSignUp */,
 				97025F9F2257EA1200273C91 /* Info.plist */,
@@ -145,12 +165,12 @@
 		97802C78225BCF54007D480D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				97802C79225BCF54007D480D /* FriendsViewController.swift */,
 				97802C7A225BCF54007D480D /* CreateTasksViewController.swift */,
 				97802C7B225BCF54007D480D /* ViewTasksViewController.swift */,
 				97802C7C225BCF54007D480D /* MapViewController.swift */,
 				97802C7D225BCF54007D480D /* SearchFriendsViewController.swift */,
 				97802C7E225BCF54007D480D /* CreateEventViewController.swift */,
+				97802C79225BCF54007D480D /* FriendsViewController.swift */,
 				97802C7F225BCF54007D480D /* CreateEdit2ViewController.swift */,
 				97802C80225BCF54007D480D /* ViewEventViewController.swift */,
 				97802C81225BCF54007D480D /* HomeViewController.swift */,
@@ -317,10 +337,14 @@
 				97802C92225BCF54007D480D /* EventGoerInfoViewController.swift in Sources */,
 				01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */,
 				97802C8A225BCF54007D480D /* ViewTasksViewController.swift in Sources */,
+				9182A785225BD72D00B5F8A3 /* Date+Extension.swift in Sources */,
 				97802C96225BCF54007D480D /* SettingsViewController.swift in Sources */,
+				9182A78B225BD7DA00B5F8A3 /* UIViewControllerExtension.swift in Sources */,
+				9182A787225BD76500B5F8A3 /* String+Date.swift in Sources */,
 				97802C88225BCF54007D480D /* FriendsViewController.swift in Sources */,
 				97802C8F225BCF54007D480D /* ViewEventViewController.swift in Sources */,
 				97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */,
+				9182A789225BD7B000B5F8A3 /* UAlertViewController.swift in Sources */,
 				97802C8C225BCF54007D480D /* SearchFriendsViewController.swift in Sources */,
 				01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */,
 				97802C89225BCF54007D480D /* CreateTasksViewController.swift in Sources */,
@@ -478,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VH9A32XL3Y;
+				DEVELOPMENT_TEAM = PLXRGQY243;
 				INFOPLIST_FILE = FlockApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VH9A32XL3Y;
+				DEVELOPMENT_TEAM = PLXRGQY243;
 				INFOPLIST_FILE = FlockApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
