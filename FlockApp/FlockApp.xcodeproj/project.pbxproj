@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012C7962225BD07C00CD13B0 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7953225BD07B00CD13B0 /* FriendsViewController.swift */; };
+		012C7963225BD07C00CD13B0 /* CreateTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7954225BD07B00CD13B0 /* CreateTasksViewController.swift */; };
+		012C7964225BD07C00CD13B0 /* ViewTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7955225BD07B00CD13B0 /* ViewTasksViewController.swift */; };
+		012C7965225BD07C00CD13B0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7956225BD07B00CD13B0 /* MapViewController.swift */; };
+		012C7966225BD07C00CD13B0 /* SearchFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7957225BD07B00CD13B0 /* SearchFriendsViewController.swift */; };
+		012C7967225BD07C00CD13B0 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7958225BD07B00CD13B0 /* CreateEventViewController.swift */; };
+		012C7968225BD07C00CD13B0 /* CreateEdit2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7959225BD07B00CD13B0 /* CreateEdit2ViewController.swift */; };
+		012C7969225BD07C00CD13B0 /* ViewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795A225BD07B00CD13B0 /* ViewEventViewController.swift */; };
+		012C796A225BD07C00CD13B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795B225BD07B00CD13B0 /* HomeViewController.swift */; };
+		012C796B225BD07C00CD13B0 /* CreateEdit1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795C225BD07B00CD13B0 /* CreateEdit1ViewController.swift */; };
+		012C796C225BD07C00CD13B0 /* EventGoerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795D225BD07B00CD13B0 /* EventGoerInfoViewController.swift */; };
+		012C796D225BD07C00CD13B0 /* UserEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795E225BD07B00CD13B0 /* UserEventsViewController.swift */; };
+		012C796E225BD07C00CD13B0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C795F225BD07B00CD13B0 /* ProfileViewController.swift */; };
+		012C796F225BD07C00CD13B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7960225BD07B00CD13B0 /* MenuViewController.swift */; };
+		012C7970225BD07C00CD13B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7961225BD07B00CD13B0 /* SettingsViewController.swift */; };
 		01742A852257F46F0083ED93 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01742A842257F46F0083ED93 /* Notes.rtf */; };
 		01742A8B225B73680083ED93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8A225B73680083ED93 /* LoginViewController.swift */; };
 		01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01742A8C225B76800083ED93 /* SignUpViewController.swift */; };
@@ -45,6 +60,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012C7953225BD07B00CD13B0 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		012C7954225BD07B00CD13B0 /* CreateTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTasksViewController.swift; sourceTree = "<group>"; };
+		012C7955225BD07B00CD13B0 /* ViewTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTasksViewController.swift; sourceTree = "<group>"; };
+		012C7956225BD07B00CD13B0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		012C7957225BD07B00CD13B0 /* SearchFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFriendsViewController.swift; sourceTree = "<group>"; };
+		012C7958225BD07B00CD13B0 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		012C7959225BD07B00CD13B0 /* CreateEdit2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEdit2ViewController.swift; sourceTree = "<group>"; };
+		012C795A225BD07B00CD13B0 /* ViewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
+		012C795B225BD07B00CD13B0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		012C795C225BD07B00CD13B0 /* CreateEdit1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEdit1ViewController.swift; sourceTree = "<group>"; };
+		012C795D225BD07B00CD13B0 /* EventGoerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventGoerInfoViewController.swift; sourceTree = "<group>"; };
+		012C795E225BD07B00CD13B0 /* UserEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEventsViewController.swift; sourceTree = "<group>"; };
+		012C795F225BD07B00CD13B0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		012C7960225BD07B00CD13B0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		012C7961225BD07B00CD13B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		01742A842257F46F0083ED93 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 		01742A8A225B73680083ED93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01742A8C225B76800083ED93 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +128,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012C7952225BD07B00CD13B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				012C7953225BD07B00CD13B0 /* FriendsViewController.swift */,
+				012C7954225BD07B00CD13B0 /* CreateTasksViewController.swift */,
+				012C7955225BD07B00CD13B0 /* ViewTasksViewController.swift */,
+				012C7956225BD07B00CD13B0 /* MapViewController.swift */,
+				012C7957225BD07B00CD13B0 /* SearchFriendsViewController.swift */,
+				012C7958225BD07B00CD13B0 /* CreateEventViewController.swift */,
+				012C7959225BD07B00CD13B0 /* CreateEdit2ViewController.swift */,
+				012C795A225BD07B00CD13B0 /* ViewEventViewController.swift */,
+				012C795B225BD07B00CD13B0 /* HomeViewController.swift */,
+				012C795C225BD07B00CD13B0 /* CreateEdit1ViewController.swift */,
+				012C795D225BD07B00CD13B0 /* EventGoerInfoViewController.swift */,
+				012C795E225BD07B00CD13B0 /* UserEventsViewController.swift */,
+				012C795F225BD07B00CD13B0 /* ProfileViewController.swift */,
+				012C7960225BD07B00CD13B0 /* MenuViewController.swift */,
+				012C7961225BD07B00CD13B0 /* SettingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		01742A8E225B76920083ED93 /* LoginAndSignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +200,8 @@
 				97025F932257EA1100273C91 /* AppDelegate.swift */,
 				97025F9A2257EA1200273C91 /* Assets.xcassets */,
 				01742A8E225B76920083ED93 /* LoginAndSignUp */,
-				97025F9F2257EA1200273C91 /* Info.plist */,
 				97025F9C2257EA1200273C91 /* LaunchScreen.storyboard */,
+				97025F9F2257EA1200273C91 /* Info.plist */,
 				97025FA52257EB6D00273C91 /* GoogleService-Info.plist */,
 			);
 			path = FlockApp;
@@ -399,15 +451,15 @@
 				97802C94225BCF54007D480D /* ProfileViewController.swift in Sources */,
 				97802C8C225BCF54007D480D /* SearchFriendsViewController.swift in Sources */,
 				01742A8D225B76800083ED93 /* SignUpViewController.swift in Sources */,
-				97802C89225BCF54007D480D /* CreateTasksViewController.swift in Sources */,
+				012C7963225BD07C00CD13B0 /* CreateTasksViewController.swift in Sources */,
 				97025FA92257F16E00273C91 /* IBADesignablesViews.swift in Sources */,
 				97802C8D225BCF54007D480D /* CreateEventViewController.swift in Sources */,
 				97802C95225BCF54007D480D /* MenuViewController.swift in Sources */,
 				97802C93225BCF54007D480D /* UserEventsViewController.swift in Sources */,
 				97802C9D225BD657007D480D /* DBService.swift in Sources */,
 				97025F942257EA1100273C91 /* AppDelegate.swift in Sources */,
-				97802C90225BCF54007D480D /* HomeViewController.swift in Sources */,
-				97802C8B225BCF54007D480D /* MapViewController.swift in Sources */,
+				012C796A225BD07C00CD13B0 /* HomeViewController.swift in Sources */,
+				012C7965225BD07C00CD13B0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
