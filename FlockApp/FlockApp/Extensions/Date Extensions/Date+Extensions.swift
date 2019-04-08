@@ -1,11 +1,12 @@
 //
-//  Date+Extension.swift
+//  Date+Extensions.swift
 //  FlockApp
 //
-//  Created by Yaz Burrell on 4/8/19.
+//  Created by Stephanie Ramirez on 4/8/19.
 //
 
 import Foundation
+
 extension Date {
     // get an ISO timestamp
     static func getISOTimestamp() -> String {

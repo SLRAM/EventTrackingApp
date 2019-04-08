@@ -8,22 +8,48 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
+    
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
 
+    private var authservice = AppDelegate.authservice
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        authservice.authserviceCreateNewAccountDelegate = self
+        
+    }
+    @IBAction func createAccountButtonPressed(_ sender: UIButton) {
+        guard let username = usernameTextField.text,
+            !username.isEmpty,
+            let email = emailTextField.text,
+            !email.isEmpty,
+            let password = passwordTextField.text,
+            !password.isEmpty
+            else {
+                return
+        }
+        authservice.createNewAccount(username: username, email: email, password: password)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func showLoginView(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
-    */
 
+
+}
+
+extension SignUpViewController: AuthServiceCreateNewAccountDelegate {
+    func didRecieveErrorCreatingAccount(_ authservice: AuthService, error: Error) {
+        showAlert(title: "Account Creation Error", message: error.localizedDescription)
+    }
+    
+    func didCreateNewAccount(_ authservice: AuthService, user blogger: UserModel) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! UIViewController
+        mainTabBarController.modalTransitionStyle = .crossDissolve
+        mainTabBarController.modalPresentationStyle = .overFullScreen
+        present(mainTabBarController, animated: true)
+    }
 }

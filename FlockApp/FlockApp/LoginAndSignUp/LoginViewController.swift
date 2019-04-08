@@ -6,24 +6,42 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
 
+    private var authservice = AppDelegate.authservice
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = true
+        authservice.authserviceExistingAccountDelegate = self
+    }
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
+        guard let email = emailTextField.text,
+            !email.isEmpty,
+            let password = passwordTextField.text,
+            !password.isEmpty
+            else {
+                return
+        }
+        authservice.signInExistingAccount(email: email, password: password)
+    }
 
-        // Do any additional setup after loading the view.
+}
+
+extension LoginViewController: AuthServiceExistingAccountDelegate {
+    func didRecieveErrorSigningToExistingAccount(_ authservice: AuthService, error: Error) {
+        showAlert(title: "Signin Error", message: error.localizedDescription)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func didSignInToExistingAccount(_ authservice: AuthService, user: User) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! UIViewController
+        mainTabBarController.modalTransitionStyle = .crossDissolve
+        mainTabBarController.modalPresentationStyle = .overFullScreen
+        present(mainTabBarController, animated: true)
     }
-    */
-
 }

@@ -1,8 +1,8 @@
 //
-//  UAlertViewController.swift
+//  UIViewController+Alert.swift
 //  FlockApp
 //
-//  Created by Yaz Burrell on 4/8/19.
+//  Created by Stephanie Ramirez on 4/8/19.
 //
 
 import UIKit
@@ -42,5 +42,3 @@ extension UIViewController {
         present(alertController, animated: true)
     }
 }
-
-

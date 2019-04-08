@@ -2,10 +2,11 @@
 //  String+Date.swift
 //  FlockApp
 //
-//  Created by Yaz Burrell on 4/8/19.
+//  Created by Stephanie Ramirez on 4/8/19.
 //
 
 import Foundation
+
 extension String {
     // create a formatted date from ISO
     // e.g "MMM d, yyyy hh:mm a"
